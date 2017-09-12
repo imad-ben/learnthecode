@@ -1,0 +1,348 @@
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="animated.css">
+  <link href='https://fonts.googleapis.com/css?family=Acme' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Permanent Marker' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet'>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
+
+
+  <title>
+  LEARN THE CODE
+  </title>
+  <style>
+  body{
+
+    background-image: url(wooden-pier-on-beautiful-mountain-lake-wallpaper-5564.jpg);
+    background-repeat:space;
+    background-size: cover;
+    overflow:scroll;
+  }
+  ul{
+list-style-type: none;
+padding: 0;
+margin:0;
+overflow: hidden;
+background-color:(0,0,0,0.0);
+  }
+  li{
+    float:left;
+    font-size: 30px;
+    -webkit-animation-delay:2s;
+    font-family: Acme;
+
+  }
+  li a {
+display: block;
+text-decoration: none;
+padding: 50px 40px;
+color:white;
+background-color:(0,0,0,0.0);
+  }
+  li a:hover{
+    background-color:rgba(0,0,0,0.0);
+    font-size: 40px;
+    color:rgb(95,145,147);
+
+  }
+  h1{
+    -webkit-animation-delay:2s;
+    text-align:center;
+    font-family:permanent marker;
+    font-size: 80px;
+    color:white;
+    -webkit-animation-delay:3s;
+
+
+  }
+h1 a{
+  text-decoration: none;
+  color:white;
+
+}
+#up_log{
+  margin: auto;
+  padding: 8% 0 0 ;
+  width:460px;
+
+}
+.down_log{
+  margin: 0 auto 100px;
+  position: relative;
+  z-index:1;
+  max-width: 360px;
+  text-align:center;
+  padding: 45px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+background-color:rgba(0,50,70,0.4);
+
+}
+#username{
+  width:250px ;
+  height: 35px ;
+  margin: 5px;
+  font-size: 19px;
+  background: url(icons8-User Male-48.png) left no-repeat;
+}
+#password{
+  width:250px ;
+height: 35px ;
+margin: 5px;
+font-size: 19px;}
+
+  #password2{
+     width:250px ;
+  height: 35px ;
+  margin: 5px;
+  font-size: 19px;}
+#sub-btn{
+  margin: 4px;
+  width:100px;
+  height:40px;
+  font-size: 20px;
+  border-radius:3px;
+  border-style:none;
+  border: 1px solid black;
+  background-color:rgba(255,255,255,0.2);
+}
+#sub-btn:hover{
+  -webkit-animation-delay:2s;
+  height:50px;
+  width:120px;
+  font-size:25px;
+}
+#sub2-btn{
+  text-align: center;
+  margin: 4px;
+  width:100px;
+  height:40px;
+  font-size: 20px;
+  border-radius:3px;
+  border-style:none;
+  border: 1px solid black;
+  background-color:rgba(255,255,255,0.2);
+}
+#sub2-btn:hover{
+  -webkit-animation-delay:2s;
+  height:50px;
+  width:120px;
+  font-size:25px;
+
+
+}
+#photo{
+  width: 35px;
+  height: 35px;
+  -webkit-animation-delay:2s;
+}
+
+#overlay {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.91);
+    z-index: 2;
+    cursor: pointer;
+}
+#pre-text{
+  top:30%;
+  left: 50%;
+  position:absolute;
+  transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+
+  color:rgb(95,145,147);
+}
+
+#text{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 160px;
+    color: white;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    font-family:Acme;
+    -webkit-animation-delay:2s;
+    color:rgb(95,145,147);
+
+}
+#inside-text{
+  position:relative;
+  font-size:30px;
+  color:white;
+  -webkit-animation-delay:5s;
+  font-family:Acme;
+  color:rgb(95,145,147);
+}
+#over-lay{
+  margin-top: 37px;
+  margin-right: 30px;
+  width:90px;
+  height:40px;
+  font-size: 30px;
+  border-style:none;
+  color:white;
+  background-color:rgba(255,255,255,0.0);
+  border-radius: 10px;
+  -webkit-animation-delay:3s;
+  padding-top:50px 40px;
+  cursor: pointer;
+  font-family:Acme;
+}
+#over-lay:hover{
+  background-color:rgba(0,0,0,0.0);
+  font-size: 40px;
+  cursor:pointer;
+  text-align:center;
+width: 120px;
+height: 50px;
+color:rgb(95,145,147);
+}
+
+#learn:hover{color:rgb(95,145,147);}
+
+#the:hover{color:rgb(95,145,147);}
+
+#code:hover{color:rgb(95,147,145);}
+#top1{-webkit-animation-delay:1s;
+-webkit-animation-duration:2s;}
+  #top2{-webkit-animation-delay:2s;
+  -webkit-animation-duration:2s;}
+    #top3{-webkit-animation-delay:3s;
+    -webkit-animation-duration:2s;}
+    #insider{
+      font-family: Pacifico;
+      overflow: scroll;
+      font-size:;
+    }
+
+
+#click-btn{
+text-decoration:none;
+ color:white;
+ font-size:45px;
+ font-family:Permanent Marker;
+
+}
+#click-btn:hover{
+font-size: 75px;
+
+	}
+  .fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+</style>
+<script>
+function validateForm() {
+ var x = document.forms["myForm"]["username"].value;
+ var y = document.forms["myForm"]["password"].value;
+if (x =="") {
+if (y =="") {
+
+
+  document.getElementById('top1').style.display = "block";
+
+  document.getElementById('top2').style.display = "block";
+
+  document.getElementById('top3').style.display = "block";
+      return false;}
+  }
+}
+</script>
+   </head>
+     <body>
+       <script>
+       function on() {
+        document.getElementById("overlay").style.display = "block"
+
+       }
+
+
+       function off() {
+        document.getElementById("overlay").style.display = "none";
+       }
+
+       </script>
+       <ul>
+         <div class="die">
+         <li><a id="top1" style="display:noe;" href="blog.html" class="animated bounceInRight" target="_blank">Blog</a></li>
+           <li><a id="top2" style="display:noe;" href="inspi.html " class="animated bounceInRight">Inspiration</a></li>
+           <li><a  id="top3" style="display:noe;" href="learn.html" class="animated bounceInRight" target="_blank">Learn</a></li>
+             <li style="float:right;" ><div id="over-lay-div"><button onclick="on()" id="over-lay">About</button>
+</div></li>
+</div>
+               </ul>
+                 <h1 class="animated" id="no-dispaly">
+                  <a href="index.html"  id="learn" class="animated BounceInUp" style="-webkit-animation-delay:2s;">Learn</a>
+                  <a href="index.html" id="the" class="animated BounceInUp" style="-webkit-animation-delay:3s;">The</a>
+                  <a href="index.html" id="code" class="animated BounceInUp" style="-webkit-animation-delay:4s;">Code</a>
+                   </h1>
+                  <div id="up_log">
+                <div class="down_log">
+                  <form name="myForm" onsubmit="return validateForm()" >
+                <table>
+              <tr>
+              <td><img src="icons8-User-50.png" id="photo" class="animated BounceInRight"></td>
+              <td><input type="text" name="usernmae" placeholder="username" id="username"></td>
+              </tr>
+              <tr>
+                <td><img src="icons8-Password Filled-50.png" id="photo" class="animated BounceInDown"></td>
+                <td><input name="password" type="password" id="username" placeholder="password"></td>
+              </tr>
+            </table>
+            <input id="sub-btn" type="submit" disabled="disabled" value="Log In">
+
+            </form>
+
+   <div id="overlay" onclick="off()">
+     <div id="pre-text" class="animated ZoomIn">
+     <div id="text" class="animated Hinge">About</div>
+     <div id="inside-text" class="animated FadeIn">
+       <h3>Learn The Code</h3>
+       -A Website That Helps You With Everything.<br>
+       -A Blog which Keeps You Updated To the Newest News:Technology,Code....<br>
+       -A Motivational Quotes : Enjoy The View Of Stars Passing By.<br>
+       -Learn : Contains Lessons And Exams For The UHBC Students.<br>
+       -There Will Be Some Weekly,Monthly Updates.<br>
+       Contact Me For More Information<br> <a href="mailto:http://www.dami.benhamou@gmail.com" id="click-btn">Click Me</a><br>
+       <a href="http://www.instagram.com/_coder._/" class="fa fa-instagram"></a>
+       <a href="mailto:http://www.dami.benhamou@gmail.com/" class="fa fa-google"></a>
+   </div>
+   </div>
+
+
+ </div>
+</div>
+</form>
+
+
+</body>
+</html>

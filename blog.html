@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+<title>BLOG | LEARN THE CODE </title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+body,h1,h2,h3,h4,h5 {
+  font-family: "Raleway", sans-serif
+}
+.foot{
+text-align: center;
+bottom:0;
+
+font-size: 30;
+}
+#over-lay{
+  float: right;
+  width:120px;
+  height:40px;
+  background-color: #b56969;
+  color:white;
+  border:1px solid #22264b;
+  font-size:20px;
+}
+#over-lay:hover{
+  background-color: #22264b;
+  color:white;
+  border:3px solid #b56969;
+
+}
+#overlay {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.91);
+  z-index: 2;
+  cursor: pointer;
+}
+section {
+  color: #fff;
+  text-align: center;
+}
+
+div {
+  height: 100%;
+}
+
+article {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 1.75rem;
+  margin: 0 0 0.75rem 0;
+}
+
+/* Pattern styles */
+.container {
+  display: table;
+  width: 100%;
+}
+
+.left-half {
+  background-color: #22264b;
+  font-size: 50px;
+  color:#b56969;
+  position: absolute;
+  left: 0px;
+  width: 50%;
+}
+
+.right-half {
+  background-color: #b56969;
+  font-size: 50px;
+  color:#22264b;
+  position: absolute;
+  right: 0px;
+  width: 50%;
+}
+</style>
+<script>
+function on() {
+ document.getElementById("overlay").style.display = "block"
+
+}
+
+
+function off() {
+ document.getElementById("overlay").style.display = "none";
+}
+
+</script>
+<body bgcolor="#b56969" >
+
+
+<div class="w3-content" style="max-width:1400px">
+
+
+<header class="w3-container w3-center w3-padding-32">
+  <h1><b>Blog | learn The Code</b></h1>
+  <p>Welcome to the blog of <span class="w3-tag">imad benhamou</span></p>
+</header>
+
+
+<div class="w3-row">
+
+<div class="w3-col l8 s12">
+
+  <div class="w3-card-4 w3-margin " style="background-color:#22264b;color:white;">
+    <img src="imad.jpg" alt="Learn the code LOGO" style="width:100%">
+    <div class="w3-container">
+      <h3 style="color:#b56969;"><b>What is learn the code &copy; </b></h3>
+      <h5 style="color:#b56969;">New Idea Of Learning The Code, <span class="w3-opacity" style="color:grey;">Septembre 10, 2017</span></h5>
+    </div>
+
+    <div class="w3-container">
+<p>Learning programming for free is probably an important factor to many people wanting
+   to develop this skill and most of these methods of learning can be done ...</p>
+      <div class="w3-row">
+        <div class="w3-col m8 s12">
+        </div>
+        <div class="w3-col m4 w3-hide-small">
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="w3-card-4 w3-margin " style="background-color:#22264b;color:white;">
+  <img src="artem-sapegin-176819.jpg" alt="Macbook Photo" style="width:100%">
+    <div class="w3-container" >
+      <h3 style="color:#b56969;"><b>How To Start </b></h3>
+      <h5 style="color:#b56969;">Really Simple Step Is how Determined Are You, <span class="w3-opacity" style="color:grey;">Septembre 10, 2017</span></h5>
+    </div>
+
+    <div class="w3-container">
+<p>Programming is one of the most valuable skills you can pick up in these modern times,
+  whether for career prospects or to stretch your brain and create something awesome.
+   If you're just getting started on your coding journey, here are ten tips and resources to set you off on the right foot.</p>
+      <div class="w3-row">
+      </div>
+    </div>
+  </div>
+</div>
+<div class="w3-col l4">
+  <div class="w3-card-2 w3-margin w3-margin-top">
+  <img src="GitHub-Logo.png" style="width:100%">
+    <div class="w3-container" style="background-color:#22264b;color:white;">
+      <h4><b<a href="http://www.github.com" style="color:#b56969;text-decoration:none;">Host Your Project For FREE</a></b></h4>
+    </p><b>GitHub</b> is a web-based Git or version control repository and Internet hosting service. It is mostly used for code.
+     It offers all of the distributed version control and source code management functionality of Git as well as adding
+      its own features<br>
+    <b>GitHub</b> is a development platform inspired by the way you work. From open source to business,
+    you can host and review code, manage projects </p>
+    </div>
+  </div>
+
+
+</div>
+<div class="w3-col l4">
+  <div class="w3-card-2 w3-margin w3-margin-top">
+  <img src="bootstrap.png" style="width:100%">
+    <div class="w3-container" style="background-color:#22264b;color:white;">
+      <h4><b><a href="http://www.bootstrap.com" style="text-decoration:none;color:#b56969;">Start Bootstrap</a></b></h4>
+<p>Bootstrap is an open source toolkit for developing with HTML, CSS, and JS.
+   Quickly prototype your ideas or build your entire app with our Sass variables and mixins,
+   responsive grid system, extensive prebuilt components, and powerful plugins built on jQuery. </p>
+    </div>
+  </div>
+
+</div>
+<div class="w3-col l4">
+  <!-- About Card -->
+  <div class="w3-card-2 w3-margin w3-margin-top">
+  <img src="web-maker-logo.png" style="width:100%">
+    <div class="w3-container" style="background-color:#22264b;color:white;">
+      <h4><b><a href="https://webmakerapp.com"style="text-decoration:none;color:#b56969;">A blazing fast & offline web playground in your browser</a></b></h4>
+<p> Click Next For More Details</p>
+    </div>
+</div>
+</div>
+
+</div><br>
+
+</div>
+<div id="overlay" onclick="off()">
+  <div id="pre-text" class="animated ZoomIn">
+    <section class="container">
+      <div class="left-half">
+        <article class="animated BounceInUp">
+          <p><b>#22264b</b></p>
+        </article>
+      </div>
+      <div class="right-half">
+        <article class="animated BounceInDown">
+          <p><b>#b56969</b></p>
+        </article>
+      </div>
+    </section>
+</div>
+</div>
+
+<footer style="background-color:#22264b;"class="w3-container  w3-padding-32 w3-margin-top">
+  <button class="w3-button w3-black w3-disabled w3-padding-large w3-margin-bottom"><a href=".html" style="text-decoration:none;" target="_blank" > Previous</a></button>
+  <button class="w3-button w3-black w3-padding-large w3-margin-bottom"><a href="blog-page2.html" style="text-decoration:none;" target="_blank">Next >></a></button>
+  <p class="foot"style="color:#b56969;">Learn The Code &copy;</p>
+  <button onclick="on()" id="over-lay">Colors</button>
+
+
+</footer>
+
+</body>
+</html>
